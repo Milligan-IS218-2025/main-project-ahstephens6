@@ -16,10 +16,10 @@ Throughout this class, you will be working on a semester-long project to develop
 
 ### Week 1
 
-* [ * ] Create an `index.html` page
+* [ ] Create an `index.html` page
     * [ ] Include a main heading
     * [ ] Include a paragraph introducing the topic of your website
-* [ * ] Create an `about.html` page
+* [ ] Create an `about.html` page
     * [ ] Include a main heading with your name
     * [ ] Include a couple of paragraphs about yourself
     * [ ] Include a list
