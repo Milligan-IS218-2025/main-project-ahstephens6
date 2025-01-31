@@ -1,3 +1,8 @@
-img {
-    size: .15em;
+p {
+    size: 1.5em;
+}
+
+div img {
+    width: 100%;
+    height: auto;
 }
