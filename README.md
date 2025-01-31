@@ -17,20 +17,20 @@ Throughout this class, you will be working on a semester-long project to develop
 ### Week 1
 
 * [x] Create an `index.html` page
-    * [ ] Include a main heading
-    * [ ] Include a paragraph introducing the topic of your website
-* [ ] Create an `about.html` page
-    * [ ] Include a main heading with your name
-    * [ ] Include a couple of paragraphs about yourself
-    * [ ] Include a list
-* [ ] All pages
-    * [ ] Include a header
-    * [ ] Include a navigation list with links to all pages
-    * [ ] Include a footer with copyright information
-    * [ ] Consistent page layout
+    * [x] Include a main heading
+    * [x] Include a paragraph introducing the topic of your website
+* [x] Create an `about.html` page
+    * [x] Include a main heading with your name
+    * [x] Include a couple of paragraphs about yourself
+    * [x] Include a list
+* [x] All pages
+    * [x] Include a header
+    * [x] Include a navigation list with links to all pages
+    * [x] Include a footer with copyright information
+    * [x] Consistent page layout
 * [ ] Miscellaneous
-    * [ ] Include at least one image
-        * [ ] All images must include alt text
+    * [x] Include at least one image
+        * [x] All images must include alt text
     * [ ] Have clean, properly indented code
 
 ### Week 3
