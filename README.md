@@ -36,7 +36,7 @@ Throughout this class, you will be working on a semester-long project to develop
 ### Week 3
 
 * [ ] Use appropriate semantic elements to organize the content of your pages
-* [ ] Create and link at least one stylesheet that is shared among multiple pages
+* [x] Create and link at least one stylesheet that is shared among multiple pages
 * [ ] Create and link at least one stylesheet that contains styles unique to one page
 * [ ] Use at least two fonts
 * [ ] Demonstrate knowledge of the CSS font properties
