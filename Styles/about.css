@@ -1,1 +1,33 @@
 @charset "utf-8";
+
+div.grid-container {
+    display: grid;
+    grid-template-areas: 
+        "image1 text1"
+        "text2 image2";
+}
+
+div img {
+    width: 100%;
+    height: auto;
+}
+
+.img1 { grid-area: image1; }
+
+.img2 { grid-area: image2; }
+
+.text1 { grid-area: text1; }
+
+.text2 { grid-area: text2; }
+
+article > p {
+    margin: 1.2em;
+    line-height: 1.25em;
+    font-size: 2em;
+}
+
+article > h2 {
+    margin: 1.2em;
+    text-align: center;
+    
+}
