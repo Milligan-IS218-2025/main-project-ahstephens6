@@ -8,3 +8,13 @@
 .flex-container div {
     padding: 5px;
 }
+
+header {
+    text-align: center;
+}
+
+article p {
+    margin: 1.2em;
+    line-height: 1.25em;
+    font-size: 2em;
+}
