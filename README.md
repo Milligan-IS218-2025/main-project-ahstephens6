@@ -42,3 +42,10 @@ Throughout this class, you will be working on a semester-long project to develop
 * [ ] Demonstrate knowledge of the CSS font properties
 * [x] Select and use a consistent color theme across all pages
 * [ ] Select and use consistent margins and padding across all pages
+
+
+
+
+
+
+
