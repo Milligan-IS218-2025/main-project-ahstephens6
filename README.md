@@ -2,6 +2,8 @@
 
 Throughout this class, you will be working on a semester-long project to develop your own website. You may choose any appropriate topic for your website as long as it fulfills all of the requirements. Each week, new requirements will be added for you to implement. The website you create will be hosted using GitHub Pages. 
 
+**Note:** As this will be a publicly available website, be sure to follow copyright law. For example, do not download images to use on your website unless you have permission to do so. Linking to images on another site, however, is allowed. (e.g. This is what Google Images does.)
+
 ## Rubric
 
 | Requirement            | Percentage |
@@ -48,3 +50,8 @@ Throughout this class, you will be working on a semester-long project to develop
 
 * [ ] All of your pages should have a responsive layout
 * [ ] Include at least one CSS Grid
+
+### Week 5
+
+* Include at least four different **types** of advanced design concepts
+    * (e.g. images, borders, backgrounds, gradients, transitions, and animations)
