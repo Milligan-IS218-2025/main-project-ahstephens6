@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+/* -----------------
+Display for mobile
+-------------------- */
+
 div.grid-container {
     display: grid;
     grid-template-areas: 
