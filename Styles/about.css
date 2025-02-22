@@ -5,6 +5,8 @@ div.grid-container {
     grid-template-areas: 
         "image1 text1"
         "text2 image2";
+    border: #0B132B dashed 5px;
+    border-radius: 25px;
 }
 
 div img {
@@ -12,13 +14,32 @@ div img {
     height: auto;
 }
 
-.img1 { grid-area: image1; }
+.img1 { 
+    display: flex;
+    grid-area: image1; 
+}
 
-.img2 { grid-area: image2; }
+.img2 { 
+    display: flex;
+    grid-area: image2; 
+}
 
-.text1 { grid-area: text1; }
+.text1 { 
+    grid-area: text1; 
+}
 
-.text2 { grid-area: text2; }
+.text2 { 
+    grid-area: text2; 
+}
+
+div > img {
+    margin: auto auto;
+    justify-self: center;
+    align-self: center;
+    min-width: 550px;
+    width: 90%;
+    height: 90%
+}
 
 article > p {
     margin: 1.2em;
@@ -29,5 +50,4 @@ article > p {
 article > h2 {
     margin: 1.2em;
     text-align: center;
-    
 }

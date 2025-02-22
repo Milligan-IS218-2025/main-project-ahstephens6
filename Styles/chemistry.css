@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+div.table {
+    display: flex;
+}
+
+table {
+    justify-self: center;
+    flex: 1 1 0px;
+}
+
+table, th, td {
+    border: 1px solid navy;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+ th.subsection {
+    float: center;
+ }
+
+td.description {
+    width: 275px;
+    height: auto;
+}
+ 
