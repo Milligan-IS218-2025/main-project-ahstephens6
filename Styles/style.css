@@ -48,3 +48,8 @@ li a:hover {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Bona Nova SC";
 }
+
+footer {
+    filter: drop-shadow(3px 3px 5px);
+    text-align: center;
+}
