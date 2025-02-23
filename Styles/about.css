@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+/* -----------------
+Display for mobile
+-------------------- */
+
+@media screen and (max-width: 480px) {
+    
+}
+
+/* -----------------
+Display for tablet
+-------------------- */
+
+@media screen and (min-width: 481px) {
+
+}
+
+/* -----------------
+Display for desktop
+-------------------- */
+
+@media screen and (min-width: 769px) {
+    
+}
+
+div.grid-container {
+    display: grid;
+    grid-template-areas: 
+        "image1 text1"
+        "text2 image2";
+    border: #0B132B dashed 5px;
+    border-radius: 25px;
+}
+
+div img {
+    width: 100%;
+    height: auto;
+}
+
+.img1 { 
+    display: flex;
+    grid-area: image1; 
+}
+
+.img2 { 
+    display: flex;
+    grid-area: image2; 
+}
+
+.text1 { 
+    grid-area: text1; 
+}
+
+.text2 { 
+    grid-area: text2; 
+}
+
+div > img {
+    margin: auto auto;
+    justify-self: center;
+    align-self: center;
+    min-width: 550px;
+    width: 90%;
+    height: 90%
+}
+
+article > p {
+    margin: 1.2em;
+    line-height: 1.25em;
+    font-size: 2em;
+}
+
+article > h2 {
+    margin: 1.2em;
+    text-align: center;
+}
