@@ -4,6 +4,24 @@ Throughout this class, you will be working on a semester-long project to develop
 
 **Note:** As this will be a publicly available website, be sure to follow copyright law. For example, do not download images to use on your website unless you have permission to do so. Linking to images on another site, however, is allowed. (e.g. This is what Google Images does.)
 
+## Useful Utilities
+
+### Characters
+
+| Code        | Character |
+| ----------- | --------- |
+| `&amp;`     | &amp;     |
+| `&copy;`    | &copy;    |
+| `&equiv;`   | &equiv;   |
+| `&gt;`      | &gt;      |
+| `&lt;`      | &lt;      |
+| `&vellip;`  | &vellip;  |
+| `&#x1F600;` | &#x1F600; |
+| `&spades;`  | &spades;  |
+| `&hearts;`  | &hearts;  |
+| `&clubs;`   | &clubs;   |
+| `&diams;`   | &diams;   |
+
 ## Rubric
 
 | Requirement            | Percentage |
@@ -55,3 +73,10 @@ Throughout this class, you will be working on a semester-long project to develop
 
 * Include at least four different **types** of advanced design concepts
     * (e.g. images, borders, backgrounds, gradients, transitions, and animations)
+
+### Week 7
+
+* Include at least one flexbox element
+* Include a well formatted and styled table
+    * You must include both row and column groups and a caption
+
