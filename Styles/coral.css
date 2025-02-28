@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+/* -----------------
+Display for mobile
+-------------------- */
+@media screen and (max-width: 480px) {
+
+}
+
+/* -----------------
+Display for tablet
+-------------------- */
+@media screen and (min-width: 481px) {
+
+}
+
+/* -----------------
+Display for desktop
+-------------------- */
+@media screen and (min-width: 769px) {
+    
+}
