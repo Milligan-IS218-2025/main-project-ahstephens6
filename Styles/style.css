@@ -51,6 +51,8 @@ div img {
 }
     
 footer {
+    margin-top: 3px;
+    padding-top: 3px;
     filter: drop-shadow(3px 3px 5px);
     text-align: center;
     vertical-align: bottom;
