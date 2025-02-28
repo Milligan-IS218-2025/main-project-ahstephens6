@@ -10,6 +10,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Bona Nova SC";
 }
 
+nav {
+    font-family: "Righteous";
+}
+
 div img {
     width: 100%;
     height: auto;
