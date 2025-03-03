@@ -1,11 +1,19 @@
 @charset "utf-8";
 
+/* section {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 45%;
+    justify-content: space-around;
+} */
+
 .flex-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column nowrap;
     overflow: auto;
+    margin: 0px 7%;
 }
 
 header {
@@ -19,6 +27,7 @@ Display for mobile
 @media screen and (max-width: 480px) {    
     .flex-container div {
         padding: 7px;
+        flex: 1 1 80%;
     }
 
     p {
@@ -35,6 +44,7 @@ Display for tablet
 @media screen and (min-width: 481px) {
     .flex-container div {
         padding: 5px;
+        flex: 1 1 80%;
     }
 
     p {
