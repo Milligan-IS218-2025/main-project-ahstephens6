@@ -3,15 +3,21 @@
 
 body {
     background-color: #E6E8E6;
-    margin: 10px 100px;
+    margin: 0px 0px;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Bona Nova SC";
 }
 
+header, section, article {
+    margin: 10px 100px;
+}
+
 nav {
     font-family: "Righteous";
+    /* position: fixed;
+    z-index: 1; */
 }
 
 div img {
@@ -25,6 +31,7 @@ img {
 }
 
 nav ul {
+    display: flex;
     list-style-type: none;
     margin: 0px;
     padding: 0px;
@@ -32,12 +39,12 @@ nav ul {
     background-color: #1C2541
 }
 
-nav li {
-    float: left;
+nav li, nav div {
+    flex-flow: row nowrap;
 }
 
 nav li a {
-    display: block;
+    display: flex;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -67,9 +74,9 @@ Display for mobile
 -------------------- */
 
 @media screen and (max-width: 480px) {
-    body {
+    /* body {
         margin: 5px 25px;
-    }
+    } */
 
     div#tablet-nav {
         display: none;
@@ -128,9 +135,9 @@ Display for tablet
 -------------------- */
 
 @media screen and (min-width: 481px) { 
-    body {
+    /* body {
         margin: 7px 30px;
-    }
+    } */
 
     div#tablet-nav {
         display: none;
@@ -194,7 +201,8 @@ Display for desktop
     }
     
     div#tablet-nav {
-        display: block;
+        display: flex;
+        flex-flow: row nowrap;
         float: left;
     }
     
