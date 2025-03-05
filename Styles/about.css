@@ -1,8 +1,15 @@
 @charset "utf-8";
 
+header {
+    text-align: center;
+}
+
+.grid-container {
+    margin: 0px 7%;
+}
+
 div img {
     width: 100%;
-    height: auto;
 }
 
 .img1 { 
@@ -30,7 +37,6 @@ div > img {
     justify-self: center;
     align-self: center;
     width: 90%;
-    height: 90%
 }
 
 h2 {
@@ -52,7 +58,7 @@ Display for mobile
     }
     
     .img1, .img2 {
-        flex: 1 10 150px;
+        flex: 1 1 150px;
     }
     
     article {
@@ -70,7 +76,7 @@ Display for tablet
 -------------------- */
 
 @media screen and (min-width: 481px) {
-    div.grid-container {
+    .grid-container {
         display: grid;
         grid-template-areas: 
             "image1 text1"
@@ -80,7 +86,7 @@ Display for tablet
     }
 
     .img1, .img2 {
-        flex: 2 7 250px;
+        flex: 1 1 250px;
     }
 
     article {
@@ -98,12 +104,13 @@ Display for desktop
 -------------------- */
 
 @media screen and (min-width: 769px) {
-    div.grid-container {
+    .grid-container {
         border-width: 4px;
+        padding: 20px;
     }
 
     .img1, .img2 {
-        flex: 1 1 350px;
+        flex: 1 1 325px;
     }
 
     article h2, article p, article li {

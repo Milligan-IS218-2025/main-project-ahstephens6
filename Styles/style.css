@@ -10,10 +10,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Bona Nova SC";
 }
 
-header, section, article {
-    margin: 10px 100px;
-}
-
 nav {
     font-family: "Righteous";
     /* position: fixed;

@@ -1,10 +1,15 @@
 @charset "utf-8";
+
+header {
+    text-align: center;
+}
+
 /* -----------------
 Display for mobile
 -------------------- */
 
 @media screen and (max-width: 480px) {
-    
+
 }
 
 /* -----------------

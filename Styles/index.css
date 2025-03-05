@@ -30,6 +30,10 @@ Display for mobile
         flex: 1 1 80%;
     }
 
+    section {
+        margin: 10px 20px;
+    }
+
     p {
         margin: 5px 9px;
         padding: 2px;

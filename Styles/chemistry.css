@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+header {
+    text-align: center;
+}
+
 div.table {
     display: flex;
 }
@@ -45,7 +49,9 @@ Display for mobile
 -------------------- */
 
 @media screen and (max-width: 480px) {
-
+    table {
+        margin: 10px 30px;
+    }
 }
 
 /* -----------------
@@ -53,7 +59,9 @@ Display for tablet
 -------------------- */
 
 @media screen and (min-width: 481px) {
-
+    table {
+        margin: 10px 85px;
+    }
 }
 
 /* -----------------
@@ -63,6 +71,10 @@ Display for desktop
 @media screen and (min-width: 769px) {
     .description {
         display: table-cell;
+    }
+
+    table {
+        margin: 10px 100px;
     }
 }
  
