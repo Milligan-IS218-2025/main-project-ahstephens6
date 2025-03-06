@@ -11,10 +11,14 @@ div.table {
 table {
     justify-self: center;
     flex: 1 1 0px;
+    background: linear-gradient(to bottom right, #828E82, #607B7D);
+    color: rgb(138, 205, 202);
+    box-shadow: 3px 3px 20px darkgray;
 }
 
 table caption {
     margin-bottom: 5px;
+    color: black;
 }
 
 table, th, td {
@@ -30,6 +34,7 @@ td.description {
 
 tfoot {
     vertical-align: bottom;
+    color: black;
 }
 
 th {
