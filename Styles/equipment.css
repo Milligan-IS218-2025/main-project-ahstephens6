@@ -16,14 +16,11 @@ Display for mobile
 Display for tablet
 -------------------- */
 
-@media screen and (min-width: 481px) {
-
-}
-
-/* -----------------
-Display for desktop
--------------------- */
-
-@media screen and (min-width: 769px) {
-    
+@media screen and (min-width: 481px) and (max-width: 800px) {
+    header,
+    section,
+    article, aside {
+        margin: 10px 50px;
+        padding: 0px 10px;
+    }
 }
