@@ -1,14 +1,26 @@
 @charset "utf-8";
 
-header, h2 {
+header, h2, h4 {
     text-align: center;
+}
+
+iframe {
+    margin: auto auto;
+    width: 95%;
+}
+
+p {
+    display: block;
 }
 
 /* -----------------
 Display for mobile
 -------------------- */
 @media screen and (max-width: 480px) {
-
+    iframe {
+        display: flex;
+        flex: 2 2 100%;
+    }
 }
 
 /* -----------------
@@ -22,12 +34,20 @@ Display for tablet
         padding: 0px 10px;
     }
 
+    iframe {
+        display: flex;
+        flex: 3 2 100%;
+    }
+
     article section {
-        column-count: 3
+        column-count: 2;
+        column-gap: 5%;
+        column-rule: solid 2px #1C2541; 
     };
 
-    article h4 {
-        break-before: always;
+    article p {
+        break-inside: avoid;
+        break-after: always;
     }
 }
 
@@ -35,5 +55,8 @@ Display for tablet
 Display for desktop
 -------------------- */
 @media screen and (min-width: 769px) {
-    
+    header, section, article, aside {
+        margin: 10px 50px;
+        padding: 0px 10px;
+    }
 }
