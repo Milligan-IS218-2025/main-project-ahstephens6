@@ -9,10 +9,6 @@ iframe {
     width: 95%;
 }
 
-p {
-    display: block;
-}
-
 /* -----------------
 Display for mobile
 -------------------- */
@@ -42,26 +38,46 @@ Display for tablet
         margin: 10px 30px;
         padding: 0px 10px;
     }
-
+    
     #firstheading {
         margin: 10px 60px;
     }
     
+    .grid {
+        display: grid;
+        grid-template-areas: "left right";
+    }
+
     iframe {
         display: flex;
         flex: 3 2 100%;
     }
 
+    .left {
+        grid-area: left;
+        margin-right: 0px;
+        padding-right: 10%;
+        border-right: 3px solid black;
+    }
+
+    .right {
+        grid-area: right;
+        margin-left: 0px;
+        padding-left: 10%;
+    }
+
+/* 
     article section {
         column-count: 2;
         column-gap: 5%;
         column-rule: solid 2px #1C2541; 
     };
 
-    article p {
+    section p {
         break-inside: avoid;
         break-after: always;
-    }
+    } */
+    
 }
 
 /* -----------------
