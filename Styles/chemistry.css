@@ -11,8 +11,8 @@ div.table {
 table {
     justify-self: center;
     flex: 1 1 0px;
-    background: linear-gradient(to bottom right, #828E82, #607B7D);
-    color: rgb(138, 205, 202);
+    background: linear-gradient(to bottom right, #707b70, #2a3738);
+    color: rgb(160, 234, 230);
     box-shadow: 3px 3px 20px darkgray;
 }
 
@@ -22,7 +22,7 @@ table caption {
 }
 
 table, th, td {
-    border: 1px solid navy;
+    border: 1px solid rgb(0, 0, 11);
     border-collapse: collapse;
     padding: 5px;
 }
