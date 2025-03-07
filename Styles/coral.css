@@ -21,6 +21,11 @@ Display for mobile
         margin: 10px 15px;
         padding: 0px 10px;
     }
+
+    #firstheading {
+        margin: 10px 30px;
+    }
+
     iframe {
         display: flex;
         flex: 2 2 100%;
@@ -38,6 +43,10 @@ Display for tablet
         padding: 0px 10px;
     }
 
+    #firstheading {
+        margin: 10px 60px;
+    }
+    
     iframe {
         display: flex;
         flex: 3 2 100%;
@@ -62,5 +71,9 @@ Display for desktop
     header, section, article, aside {
         margin: 10px 50px;
         padding: 0px 10px;
+    }
+
+    #firstheading {
+        margin: 10px 100px;
     }
 }
