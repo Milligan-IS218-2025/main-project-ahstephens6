@@ -17,6 +17,10 @@ p {
 Display for mobile
 -------------------- */
 @media screen and (max-width: 480px) {
+    header, section, article, aside {
+        margin: 10px 15px;
+        padding: 0px 10px;
+    }
     iframe {
         display: flex;
         flex: 2 2 100%;
