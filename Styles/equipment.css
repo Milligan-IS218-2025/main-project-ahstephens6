@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+header {
+    text-align: center;
+}
+
+/* -----------------
+Display for mobile
+-------------------- */
+
+@media screen and (max-width: 480px) {
+    header, section, article, aside {
+        margin: 10px 15px;
+        padding: 0px 10px;
+    }
+}
+
+/* -----------------
+Display for tablet
+-------------------- */
+
+@media screen and (min-width: 481px) and (max-width: 800px) {
+    header,
+    section,
+    article, aside {
+        margin: 10px 50px;
+        padding: 0px 10px;
+    }
+}
