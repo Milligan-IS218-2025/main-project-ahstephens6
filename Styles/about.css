@@ -48,7 +48,7 @@ Display for mobile
 -------------------- */
 
 @media screen and (max-width: 480px) {
-    div.grid-container {
+    .grid-container {
         display: grid;
         grid-template-areas: 
         "image1 text1"
