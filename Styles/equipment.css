@@ -4,6 +4,10 @@ header {
     text-align: center;
 }
 
+img {
+    max-width: 100%;
+}
+
 /* -----------------
 Display for mobile
 -------------------- */
