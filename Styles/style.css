@@ -52,7 +52,7 @@ nav li a:hover {
     color: white;
 }
 
-div img {
+div img, aside img {
     width: 100%;
     height: auto;
 }

@@ -25,7 +25,7 @@ Display for mobile
 -------------------- */
 
 @media screen and (max-width: 480px) {    
-    .flex-container div {
+    .flex-container aside {
         padding: 7px;
         flex: 1 1 80%;
     }
@@ -46,7 +46,7 @@ Display for tablet
 -------------------- */
 
 @media screen and (min-width: 481px) {
-    .flex-container div {
+    .flex-container aside {
         margin: 0px 30px;
         padding: 5px;
         flex: 1 1 80%;
