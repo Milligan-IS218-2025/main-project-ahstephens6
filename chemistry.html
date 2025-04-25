@@ -1,130 +1,146 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Web dev project - Chemistry</title>
-        <link href="../main-project-ahstephens6/Styles/style.css" rel="stylesheet">
-        <link href="../main-project-ahstephens6/Styles/formatting.css" rel="stylesheet">
-        <link href="../main-project-ahstephens6/Styles/chemistry.css" rel="stylesheet">
-    </head>
-    <body>
-        <nav>
-            <ul>
-                <li><a href="https://milligan-is218-2025.github.io/main-project-ahstephens6/">Home</a></li>
-                <li><a href="https://milligan-is218-2025.github.io/main-project-ahstephens6/about.html">About</a></li>
-                <div class="dropdown">
-                    <li class="dropbtn"><a class="active" href="https://milligan-is218-2025.github.io/main-project-ahstephens6/chemistry.html">Chemistry</a></li>
-                    <div class="drop-content">
-                        <li><a href="https://milligan-is218-2025.github.io/main-project-ahstephens6/equipment.html">Equipment</a></li>
-                        <li><a href="https://milligan-is218-2025.github.io/main-project-ahstephens6/fish.html">Fish</a></li>
-                        <li><a href="https://milligan-is218-2025.github.io/main-project-ahstephens6/coral.html">Coral</a></li>
-                        <li><a href="https://milligan-is218-2025.github.io/main-project-ahstephens6/setup.html">Setup</a></li>
-                    </div>
-                </div>
-                <div id="tablet-nav">
-                    <li><a href="https://milligan-is218-2025.github.io/main-project-ahstephens6/equipment.html">Equipment</a></li>
-                    <li><a class="active" href="https://milligan-is218-2025.github.io/main-project-ahstephens6/chemistry.html">Chemistry</a></li>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web dev project - Chemistry</title>
+    <link href="../main-project-ahstephens6/Styles/style.css" rel="stylesheet">
+    <link href="../main-project-ahstephens6/Styles/formatting.css" rel="stylesheet">
+    <link href="../main-project-ahstephens6/Styles/chemistry.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="https://milligan-is218-2025.github.io/main-project-ahstephens6/">Home</a></li>
+            <li><a href="https://milligan-is218-2025.github.io/main-project-ahstephens6/about.html">About</a></li>
+            <div class="dropdown">
+                <li class="dropbtn"><a class="active"
+                        href="https://milligan-is218-2025.github.io/main-project-ahstephens6/chemistry.html">Chemistry</a>
+                </li>
+                <div class="drop-content">
+                    <li><a
+                            href="https://milligan-is218-2025.github.io/main-project-ahstephens6/equipment.html">Equipment</a>
+                    </li>
                     <li><a href="https://milligan-is218-2025.github.io/main-project-ahstephens6/fish.html">Fish</a></li>
-                    <li><a href="https://milligan-is218-2025.github.io/main-project-ahstephens6/coral.html">Coral</a></li>
-                    <li><a href="https://milligan-is218-2025.github.io/main-project-ahstephens6/setup.html">Setup</a></li>
-                </div> 
-            </ul>
-        </nav>
-        <header>
-            <h1>Water Chemistry</h1>
-        </header>
-        <section>
-            <h2>Overview</h2>
-            <p>
-                Chemistry may seem to be an extremely complex topic, which it can, however, it can also be made extremely simple.
-                This section will be to talk exclusively about the parameters the water should be kept at for optimal fish and coral health.
-                The parameters I provide are reflective of natural sea water to a degree with some modifications for exaggerated color/growth.
-            </p>
-        </section>
-            <table id="table">
-                <caption>
-                    <h3>General Chemistry</h3>
-                </caption>
-                <colgroup>
-                    <col class="Measurement">
-                    <col class="Description">
-                    <col class="Tank">
-                    <col class="Ocean">
-                </colgroup>
-                <thead>
-                    <tr id="heading">
-                        <th>Measurement</th>
-                        <th class="description">Description</th>
-                        <th>Inside Tank</th>
-                        <th>Ocean</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th colspan="4" class="subsection">General</th>
-                    </tr>
-                    <tr>
-                        <th>Temperature</th>
-                        <td class="description">Temperature of the water</td>
-                        <td>76&deg;F - 80&deg;F</td>
-                        <td>Could vary</td>
-                    </tr>
-                    <tr>
-                        <th>Salinity</th>
-                        <td class="description">Measure of dissolved salts in the water</td>
-                        <td>1.024 - 1.026 SG or 33 - 35 ppt</td>
-                        <td>1.025 - 1.027 SG or 34 - 36 ppt</td>
-                    </tr>
-                    <tr>
-                        <th>pH</th>
-                        <td class="description">Measure of acidity in the water</td>
-                        <td>8.1 - 8.3</td>
-                        <td>8.1 - 8.3</td>
-                    </tr>
-                    <tr>
-                        <th colspan="4" class="subsection">Pollutants/Waste</th>
-                    </tr>
-                    <tr>
-                        <th>Phosphate</th>
-                        <td class="description">Measure of pollutants in the water</td>
-                        <td>0.02 - 0.07 ppm</td>
-                        <td>0.005 ppm</td>
-                    </tr>
-                    <tr>
-                        <th>Nitrate</th>
-                        <td class="description">Measure of pollutants in the water</td>
-                        <td>5 - 15ppm</td>
-                        <td>Less than 0.1 ppm</td>
-                    </tr>
-                    <tr>
-                        <th colspan="4" class="subsection">Coral Growth</th>
-                    </tr>
-                    <tr>
-                        <th>Calcium</th>
-                        <td class="description">Amount of Calcium in the water</td>
-                        <td>380 - 450 ppm</td>
-                        <td>420 ppm</td>
-                    </tr>
-                    <tr>
-                        <th>Alkalinity</th>
-                        <td class="description">pH buffering capability</td>
-                        <td>7.5 - 9 dKH</td>
-                        <td>7 dKH</td>
-                    </tr>
-                    <tr>
-                        <th>Magnesium</th>
-                        <td class="description">Amount of Magnesium in the water</td>
-                        <td>1200 - 1400 ppm</td>
-                        <td>1280 ppm</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <td colspan="4">*Most commonly tested elements</td>
-                </tfoot>
-            </table>
-        <footer>
-            <p>&copy;Xander Stephens <a href="mainto:ahstephens@my.milligan.edu">ahstephens@my.milligan.edu</a></p>
-        </footer>
-    </body>
+                    <li><a href="https://milligan-is218-2025.github.io/main-project-ahstephens6/coral.html">Coral</a>
+                    </li>
+                    <li><a href="https://milligan-is218-2025.github.io/main-project-ahstephens6/setup.html">Setup</a>
+                    </li>
+                </div>
+            </div>
+            <div id="tablet-nav">
+                <li><a
+                        href="https://milligan-is218-2025.github.io/main-project-ahstephens6/equipment.html">Equipment</a>
+                </li>
+                <li><a class="active"
+                        href="https://milligan-is218-2025.github.io/main-project-ahstephens6/chemistry.html">Chemistry</a>
+                </li>
+                <li><a href="https://milligan-is218-2025.github.io/main-project-ahstephens6/fish.html">Fish</a></li>
+                <li><a href="https://milligan-is218-2025.github.io/main-project-ahstephens6/coral.html">Coral</a></li>
+                <li><a href="https://milligan-is218-2025.github.io/main-project-ahstephens6/setup.html">Setup</a></li>
+            </div>
+        </ul>
+    </nav>
+    <header>
+        <h1>Water Chemistry</h1>
+    </header>
+    <section>
+        <h2>Overview</h2>
+        <p>
+            Chemistry may seem to be an extremely complex topic, which it can, however, it can also be made extremely
+            simple.
+            This section will be to talk exclusively about the parameters the water should be kept at for optimal fish
+            and coral health.
+            The parameters I provide are reflective of natural sea water to a degree with some modifications for
+            exaggerated color/growth.
+        </p>
+    </section>
+    <table id="table">
+        <caption>
+            <h3>General Chemistry</h3>
+        </caption>
+        <colgroup>
+            <col class="Measurement">
+            <col class="Description">
+            <col class="Tank">
+            <col class="Ocean">
+        </colgroup>
+        <thead>
+            <tr id="heading">
+                <th>Measurement</th>
+                <th class="description">Description</th>
+                <th>Inside Tank</th>
+                <th>Ocean</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th colspan="4" class="subsection">General</th>
+            </tr>
+            <tr>
+                <th>Temperature</th>
+                <td class="description">Temperature of the water</td>
+                <td>76&deg;F - 80&deg;F</td>
+                <td>Could vary</td>
+            </tr>
+            <tr>
+                <th>Salinity</th>
+                <td class="description">Measure of dissolved salts in the water</td>
+                <td>1.024 - 1.026 SG or 33 - 35 ppt</td>
+                <td>1.025 - 1.027 SG or 34 - 36 ppt</td>
+            </tr>
+            <tr>
+                <th>pH</th>
+                <td class="description">Measure of acidity in the water</td>
+                <td>8.1 - 8.3</td>
+                <td>8.1 - 8.3</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="subsection">Pollutants/Waste</th>
+            </tr>
+            <tr>
+                <th>Phosphate</th>
+                <td class="description">Measure of pollutants in the water</td>
+                <td>0.02 - 0.07 ppm</td>
+                <td>0.005 ppm</td>
+            </tr>
+            <tr>
+                <th>Nitrate</th>
+                <td class="description">Measure of pollutants in the water</td>
+                <td>5 - 15ppm</td>
+                <td>Less than 0.1 ppm</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="subsection">Coral Growth</th>
+            </tr>
+            <tr>
+                <th>Calcium</th>
+                <td class="description">Amount of Calcium in the water</td>
+                <td>380 - 450 ppm</td>
+                <td>420 ppm</td>
+            </tr>
+            <tr>
+                <th>Alkalinity</th>
+                <td class="description">pH buffering capability</td>
+                <td>7.5 - 9 dKH</td>
+                <td>7 dKH</td>
+            </tr>
+            <tr>
+                <th>Magnesium</th>
+                <td class="description">Amount of Magnesium in the water</td>
+                <td>1200 - 1400 ppm</td>
+                <td>1280 ppm</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="4">*Most commonly tested elements</td>
+        </tfoot>
+    </table>
+    <footer>
+        <p>&copy;Xander Stephens <a href="mainto:ahstephens@my.milligan.edu">ahstephens@my.milligan.edu</a></p>
+    </footer>
+</body>
+
 </html>
