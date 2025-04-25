@@ -24,14 +24,14 @@ header {
 Display for mobile
 -------------------- */
 
-@media screen and (max-width: 480px) {    
+@media screen and (max-width: 480px) {
     .flex-container aside {
         padding: 7px;
         flex: 1 1 80%;
     }
 
     section {
-        margin: 10px 3  0px;
+        margin: 10px 3 0px;
     }
 
     p {
@@ -69,5 +69,5 @@ Display for desktop
     section p {
         margin: 1.2em;
         font-size: 1.5em;
-    }    
+    }
 }

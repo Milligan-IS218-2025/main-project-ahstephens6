@@ -6,7 +6,12 @@ body {
     margin: 0px 0px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Bona Nova SC";
 }
 
@@ -35,7 +40,8 @@ nav ul {
     background-color: #1C2541
 }
 
-nav li, nav div {
+nav li,
+nav div {
     flex-flow: row nowrap;
 }
 
@@ -52,11 +58,12 @@ nav li a:hover {
     color: white;
 }
 
-div img, aside img {
+div img,
+aside img {
     width: 100%;
     height: auto;
 }
-    
+
 footer {
     margin-top: 3px;
     padding-top: 3px;
@@ -88,11 +95,11 @@ Display for mobile
         font-family: inherit;
         margin: 0;
     }
-    
+
     .dropdown:hover .dropbtn {
         background-color: black;
     }
-    
+
     .drop-content {
         display: none;
         position: absolute;
@@ -100,7 +107,7 @@ Display for mobile
         min-width: 160px;
         z-index: 1;
     }
-    
+
     .drop-content a {
         float: none;
         color: white;
@@ -110,17 +117,17 @@ Display for mobile
         text-align: left;
         flex-flow: column nowrap;
     }
-    
+
     .dropdown:hover .drop-content {
         display: flex;
         flex-flow: column nowrap;
     }
-    
+
     .active {
         background-color: #F9F9F9;
         color: black;
     }
-    
+
     p {
         size: 1em;
     }
@@ -130,7 +137,7 @@ Display for mobile
 Display for tablet
 -------------------- */
 
-@media screen and (min-width: 481px) { 
+@media screen and (min-width: 481px) {
     /* body {
         margin: 7px 30px;
     } */
@@ -138,22 +145,22 @@ Display for tablet
     div#tablet-nav {
         display: none;
     }
-    
+
     .dropdown {
         float: left;
         overflow: hidden;
     }
-    
+
     .dropdown .dropbtn {
         background-color: inherit;
         font-family: inherit;
         margin: 0;
     }
-    
+
     .dropdown:hover .dropbtn {
         background-color: black;
     }
-    
+
     .drop-content {
         display: none;
         position: absolute;
@@ -161,7 +168,7 @@ Display for tablet
         min-width: 160px;
         z-index: 1;
     }
-    
+
     .drop-content a {
         float: none;
         color: white;
@@ -171,12 +178,12 @@ Display for tablet
         text-align: left;
         flex-flow: column nowrap;
     }
-    
+
     .dropdown:hover .drop-content {
         display: flex;
         flex-flow: column nowrap;
     }
-    
+
     .active {
         background-color: #F9F9F9;
         color: black;
@@ -195,17 +202,17 @@ Display for desktop
     div.dropdown {
         display: none;
     }
-    
+
     div#tablet-nav {
         display: flex;
         flex-flow: row nowrap;
         float: left;
     }
-    
+
     p {
         size: 1.2em;
     }
-    
+
     .active {
         background-color: #F9F9F9;
         color: black;

@@ -17,7 +17,9 @@ table caption {
     color: black;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 1px solid rgb(0, 0, 11);
     border-collapse: collapse;
     padding: 5px;
@@ -42,7 +44,7 @@ th.subsection {
 }
 
 .description {
-    display: none;  
+    display: none;
 }
 
 /* -----------------
@@ -78,4 +80,3 @@ Display for desktop
         margin: 10px 100px;
     }
 }
- 

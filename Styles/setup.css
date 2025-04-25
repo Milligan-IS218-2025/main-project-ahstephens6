@@ -8,9 +8,7 @@
 /* -----------------
 Display for mobile
 -------------------- */
-@media screen and (max-width: 480px) {
-    
-}
+@media screen and (max-width: 480px) {}
 
 /* -----------------
 Display for tablet
@@ -24,7 +22,9 @@ Display for tablet
     }
 
     #weekly-maintenance tbody {
-        tr, td {
+
+        tr,
+        td {
             border: 1px dashed black;
         }
     }
@@ -33,6 +33,4 @@ Display for tablet
 /* -----------------
 Display for desktop
 -------------------- */
-@media screen and (min-width: 769px) {
-
-}
+@media screen and (min-width: 769px) {}

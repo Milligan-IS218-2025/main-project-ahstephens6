@@ -6,9 +6,9 @@ header {
 
 .grid-container {
     display: grid;
-    grid-template-areas: 
-    "image1 text1"
-    "text2 image2";
+    grid-template-areas:
+        "image1 text1"
+        "text2 image2";
     margin: 0px 7%;
 }
 
@@ -16,27 +16,27 @@ div img {
     width: 100%;
 }
 
-.img1 { 
+.img1 {
     display: flex;
-    grid-area: image1; 
+    grid-area: image1;
 }
 
-.img2 { 
+.img2 {
     display: flex;
-    grid-area: image2; 
+    grid-area: image2;
 }
 
-.text1 { 
-    grid-area: text1; 
+.text1 {
+    grid-area: text1;
     padding: 5px;
 }
 
-.text2 { 
-    grid-area: text2; 
+.text2 {
+    grid-area: text2;
     padding: 5px;
 }
 
-div > img {
+div>img {
     margin: auto auto;
     justify-self: center;
     align-self: center;
@@ -56,17 +56,20 @@ Display for mobile
         border: #0B132B dashed 2px;
         border-radius: 20px;
     }
-    
-    .img1, .img2 {
+
+    .img1,
+    .img2 {
         flex: 1 1 150px;
     }
-    
+
     article {
         margin: 2px;
         padding: 2px;
     }
 
-    article h2, article p, article li {
+    article h2,
+    article p,
+    article li {
         font-size: 0.8em;
     }
 }
@@ -81,7 +84,8 @@ Display for tablet
         border-radius: 25px;
     }
 
-    .img1, .img2 {
+    .img1,
+    .img2 {
         flex: 1 1 250px;
     }
 
@@ -90,9 +94,11 @@ Display for tablet
         padding: 5px;
     }
 
-    article h2, article p, article li {
+    article h2,
+    article p,
+    article li {
         font-size: 0.9em;
-    }    
+    }
 }
 
 /* -----------------
@@ -105,11 +111,14 @@ Display for desktop
         padding: 20px;
     }
 
-    .img1, .img2 {
+    .img1,
+    .img2 {
         flex: 1 1 325px;
     }
 
-    article h2, article p, article li {
+    article h2,
+    article p,
+    article li {
         font-size: 1.5em;
     }
 }
