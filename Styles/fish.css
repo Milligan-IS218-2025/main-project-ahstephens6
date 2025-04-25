@@ -1,19 +1,40 @@
 @charset "utf-8";
 
-/* -----------------
-Display for mobile
--------------------- */
+main {
+    text-align: center;
+}
 
-@media screen and (max-width: 480px) {
-
+section ul {
+    text-align: left;
 }
 
 /* -----------------
 Display for tablet
 -------------------- */
 
-@media screen and (min-width: 481px) and (max-width: 800px) {
+@media screen and (min-width: 481px) {
+    .flex-container {
+        display: flex;
+        flex-flow: row nowrap;
+    }
 
+    #images {
+        margin: auto auto;
+        flex: 2 .3 200px;
+    }
+
+    #content {
+        margin: auto auto;
+        padding-right: 3%;
+
+        li {
+            font-size: 1.2em;
+        }
+    }
+
+    img {
+        max-width: 475px;
+    }
 }
 
 /* -----------------
@@ -21,5 +42,10 @@ Display for desktop
 -------------------- */
 
 @media screen and (min-width: 769px) {
-
+    #content {
+        li {
+            font-size: 1.5em;
+            line-height: 1.2em;
+        }
+    }
 }

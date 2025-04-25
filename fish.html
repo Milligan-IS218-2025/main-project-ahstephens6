@@ -8,6 +8,7 @@
     <link href="../main-project-ahstephens6/Styles/style.css" rel="stylesheet">
     <link href="../main-project-ahstephens6/Styles/formatting.css" rel="stylesheet">
     <link href="../main-project-ahstephens6/Styles/fish.css" rel="stylesheet">
+    <script type="text/javascript" src="../main-project-ahstephens6/JavaScript/fish_info.js" defer></script>
 </head>
 
 <body>
@@ -55,15 +56,22 @@
             exactly the opposite, they will eat your coral and will most likely also eat your invertebrates. I recommend
             for smaller tanks,
             anything under 75 gallons, that people stick with small and peaceful fish to ensure little aggression as
-            well as happiness. I also
+            well as happiness. Also stick to just a few fish so that you do not over populate your tank.
+            I also
             don't recommend getting not reef safe fish if you plan on keeping coral.
         </p>
     </header>
-    <form>
-        <input type="radio" id="reef-safe" name="fish-type" value="reef-safe">
-        <label for="reef-safe">Reef Safe</label>
-
-    </form>
+    <main>
+        <!-- Call each function to retrieve the specific data -->
+        <button type="button" onclick="makeReefSafe()">Reef Safe</button>
+        <button type="button" onclick="makeReefCaution()">Reef Caution</button>
+        <button type="button" onclick="makeNotReefSafe()">Not Reef Safe</button>
+        <!-- Display list on left, and images on right -->
+        <article class="flex-container">
+            <section id="content"></section>
+            <aside id="images"></aside>
+        </article>
+    </main>
     <footer>
         <p>&copy;Xander Stephens <a href="mainto:ahstephens@my.milligan.edu">ahstephens@my.milligan.edu</a></p>
     </footer>
