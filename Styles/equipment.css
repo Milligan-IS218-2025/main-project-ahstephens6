@@ -8,6 +8,24 @@ img {
     max-width: 100%;
 }
 
+form {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    padding: 2% 2%;
+}
+
+input[type=submit] {
+    grid-column: 1 / span 2;
+    height: 3em;
+    background-color: #1C2541;
+    color: white;
+}
+
+input:focus {
+    background-color: lightgray;
+}
+
 /* -----------------
 Display for mobile
 -------------------- */
@@ -20,6 +38,19 @@ Display for mobile
     aside {
         margin: 10px 15px;
         padding: 0px 10px;
+    }
+
+    label {
+        font-size: 0.95em;
+        line-height: 1.5em;
+        margin: 5px 5px;
+        padding: 5px 5px;
+    }
+
+    input,
+    select {
+        margin: 5px 5px;
+        padding: 5px 5px;
     }
 }
 
@@ -35,5 +66,33 @@ Display for tablet
     aside {
         margin: 10px 50px;
         padding: 0px 10px;
+    }
+
+    label {
+        font-size: 1.15em;
+        line-height: 1.35em;
+        margin: 7px 7px;
+        padding: 3px 3px;
+    }
+
+    input,
+    select {
+        margin: 7px 7px;
+        padding: 3px 3px;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    label {
+        font-size: 1.15em;
+        line-height: 1.35em;
+        margin: 7px 7px;
+        padding: 3px 3px;
+    }
+
+    input,
+    select {
+        margin: 7px 7px;
+        padding: 3px 3px;
     }
 }
