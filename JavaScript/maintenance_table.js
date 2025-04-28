@@ -21,7 +21,7 @@ function makeHeading(curDate) {
     let month = curDate.getMonth();
 
     tableHTML += "<caption>Sample Maintenance Schedule</caption><thead>";
-    tableHTML += "<tr><th colspan=\"7\" id=\"month\">" + months[month] + "</th></tr><tr>";
+    tableHTML += "<tr><th colspan=\"7\" id=\"month\">" + months[month] + "</th></tr><tr id=\"days-of-week\">";
     // Add the days of the week at the top
     for (let i = 0; i < daysOfWeek.length; i++) {
         tableHTML += "<th>" + daysOfWeek[i] + "</th>";
@@ -50,14 +50,14 @@ function addNumbers(curDate) {
     // Add beginning of table row in case first day of month is Sunday
     tableHTML += "<tr>";
     for (let i = 0; i < firstDayofMonth; i++) {
-        tableHTML += "<td></td>";
+        tableHTML += "<td id=\"none\"></td>";
     }
     for (let i = 1; i <= numDays; i++) {
         // Get the current weekday to check if needed to go to new row
         if (i === curDate.getDate()) {
-            tableHTML += "<td class=    \"today\">" + i;
+            tableHTML += "<td class=\"today\"><h3>" + i + "</h3>";
         } else {
-            tableHTML += "<td>" + i;
+            tableHTML += "<td><h3>" + i + "</h3>";
         }
         
         // Get the current weekday
@@ -80,7 +80,7 @@ function addNumbers(curDate) {
         }
     }
     for (let i = lastDay; i < 6; i++) {
-        tableHTML += "<td></td>";
+        tableHTML += "<td id=\"none\"></td>";
     }
     tableHTML += "</tr>";
 }
