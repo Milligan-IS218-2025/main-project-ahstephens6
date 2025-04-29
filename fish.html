@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web dev project - Fish</title>
+    <link href="../main-project-ahstephens6/Styles/style.css" rel="stylesheet">
+    <link href="../main-project-ahstephens6/Styles/formatting.css" rel="stylesheet">
+    <link href="../main-project-ahstephens6/Styles/fish.css" rel="stylesheet">
+    <script type="text/javascript" src="../main-project-ahstephens6/JavaScript/fish_info.js" defer></script>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="https://milligan-is218-2025.github.io/main-project-ahstephens6/">Home</a></li>
+            <li><a href="https://milligan-is218-2025.github.io/main-project-ahstephens6/about.html">About</a></li>
+            <div class="dropdown">
+                <li class="dropbtn"><a class="active"
+                        href="https://milligan-is218-2025.github.io/main-project-ahstephens6/fish.html">Fish</a></li>
+                <div class="drop-content">
+                    <li><a
+                            href="https://milligan-is218-2025.github.io/main-project-ahstephens6/equipment.html">Equipment</a>
+                    </li>
+                    <li><a
+                            href="https://milligan-is218-2025.github.io/main-project-ahstephens6/chemistry.html">Chemistry</a>
+                    </li>
+                    <li><a href="https://milligan-is218-2025.github.io/main-project-ahstephens6/coral.html">Coral</a>
+                    </li>
+                    <li><a href="https://milligan-is218-2025.github.io/main-project-ahstephens6/setup.html">Setup</a>
+                    </li>
+                </div>
+            </div>
+            <div id="tablet-nav">
+                <li><a
+                        href="https://milligan-is218-2025.github.io/main-project-ahstephens6/equipment.html">Equipment</a>
+                </li>
+                <li><a
+                        href="https://milligan-is218-2025.github.io/main-project-ahstephens6/chemistry.html">Chemistry</a>
+                </li>
+                <li><a class="active"
+                        href="https://milligan-is218-2025.github.io/main-project-ahstephens6/fish.html">Fish</a></li>
+                <li><a href="https://milligan-is218-2025.github.io/main-project-ahstephens6/coral.html">Coral</a></li>
+                <li><a href="https://milligan-is218-2025.github.io/main-project-ahstephens6/setup.html">Setup</a></li>
+            </div>
+        </ul>
+    </nav>
+    <header>
+        <h1>Fish</h1>
+        <p>
+            There are mainly two type of fish you want to look at in keeping saltwater aquariums: reef safe fish and not
+            reef safe fish.
+            Reef safe fish are fish that will not eat coral, and are most likely to not eat other invertebrates. Not
+            reef safe fish are
+            exactly the opposite, they will eat your coral and will most likely also eat your invertebrates. I recommend
+            for smaller tanks,
+            anything under 75 gallons, that people stick with small and peaceful fish to ensure little aggression as
+            well as happiness. Also stick to just a few fish so that you do not over populate your tank.
+            I also
+            don't recommend getting not reef safe fish if you plan on keeping coral.
+        </p>
+    </header>
+    <main>
+        <!-- Call each function to retrieve the specific data -->
+        <button type="button" onclick="makeReefSafe()">Reef Safe</button>
+        <button type="button" onclick="makeReefCaution()">Reef Caution</button>
+        <button type="button" onclick="makeNotReefSafe()">Not Reef Safe</button>
+        <!-- Display list on left, and images on right -->
+        <article class="flex-container">
+            <section id="content"></section>
+            <aside id="images"></aside>
+        </article>
+    </main>
+    <footer>
+        <p>&copy;Xander Stephens <a href="mainto:ahstephens@my.milligan.edu">ahstephens@my.milligan.edu</a></p>
+    </footer>
+</body>
+
+</html>

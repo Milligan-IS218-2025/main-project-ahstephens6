@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+/* CSS for index.html */
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    overflow: auto;
+    margin: 0px 7%;
+}
+
+header {
+    text-align: center;
+}
+
+/* -----------------
+Display for mobile
+-------------------- */
+
+@media screen and (max-width: 480px) {
+    .flex-container aside {
+        padding: 7px;
+        flex: 1 1 80%;
+    }
+
+    section {
+        margin: 10px 3 0px;
+    }
+
+    p {
+        margin: 5px 9px;
+        padding: 2px;
+        font-size: 1.1em;
+    }
+}
+
+/* -----------------
+Display for tablet
+-------------------- */
+
+@media screen and (min-width: 481px) {
+    .flex-container aside {
+        margin: 0px 30px;
+        padding: 5px;
+        flex: 1 1 80%;
+    }
+
+    p {
+        font-size: 1.25em;
+    }
+}
+
+/* -----------------
+Display for desktop
+-------------------- */
+
+@media screen and (min-width: 769px) {
+    .flex-container {
+        flex-flow: row nowrap;
+    }
+
+    section p {
+        margin: 1.2em;
+        font-size: 1.5em;
+    }
+}

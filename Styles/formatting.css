@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+/* Page for setting the default margin and padding for semantic elements */
+
+/* -----------------
+Display for mobile
+-------------------- */
+
+@media screen and (max-width: 480px) {
+
+    header,
+    section,
+    article,
+    aside {
+        margin: 10px 30px;
+        padding: 0px 5px;
+    }
+
+    p {
+        font-size: 0.95em;
+        line-height: 1.5em;
+    }
+}
+
+/* -----------------
+Display for tablet
+-------------------- */
+
+@media screen and (min-width: 481px) {
+
+    header,
+    section,
+    article,
+    aside {
+        margin: 10px 85px;
+        padding: 0px 10px;
+    }
+
+    p {
+        font-size: 1.15em;
+        line-height: 1.35;
+    }
+}
+
+/* -----------------
+Display for desktop
+-------------------- */
+
+@media screen and (min-width: 769px) {
+
+    header,
+    section,
+    article,
+    aside {
+        margin: 10px 125px;
+        padding: 0px 15px;
+    }
+
+    p {
+        font-size: 1.2em;
+        line-height: 1.2em;
+    }
+}

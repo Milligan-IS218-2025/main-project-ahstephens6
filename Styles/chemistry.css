@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+/* CSS for chemistry.html */
+
+header {
+    text-align: center;
+}
+
+/* The table does not change based on screen size. */
+
+table {
+    justify-self: center;
+    flex: 1 1 0px;
+    background: linear-gradient(to bottom right, #707b70, #2a3738);
+    color: rgb(160, 234, 230);
+    box-shadow: 3px 3px 20px darkgray;
+}
+
+table caption {
+    margin-bottom: 5px;
+    color: black;
+}
+
+table,
+th,
+td {
+    border: 1px solid rgb(0, 0, 11);
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+td.description {
+    width: 275px;
+    height: auto;
+}
+
+tfoot {
+    vertical-align: bottom;
+    color: black;
+}
+
+th {
+    text-align: left;
+}
+
+th.subsection {
+    text-align: center;
+}
+
+.description {
+    display: none;
+}
+
+/* -----------------
+Display for mobile
+-------------------- */
+
+@media screen and (max-width: 480px) {
+    table {
+        margin: 10px 30px;
+    }
+}
+
+/* -----------------
+Display for tablet
+-------------------- */
+
+@media screen and (min-width: 481px) {
+    table {
+        margin: 10px 85px;
+    }
+}
+
+/* -----------------
+Display for desktop
+-------------------- */
+
+@media screen and (min-width: 769px) {
+    .description {
+        display: table-cell;
+    }
+
+    table {
+        margin: 10px 100px;
+    }
+}

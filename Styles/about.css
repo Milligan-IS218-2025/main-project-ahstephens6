@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+/* CSS for about.html */
+
+header {
+    text-align: center;
+}
+
+/* Create the x-pattern for display */
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        "image1 text1"
+        "text2 image2";
+    margin: 0px 7%;
+}
+
+div img {
+    width: 100%;
+}
+
+.img1 {
+    display: flex;
+    grid-area: image1;
+}
+
+.img2 {
+    display: flex;
+    grid-area: image2;
+}
+
+.text1 {
+    grid-area: text1;
+    padding: 5px;
+}
+
+.text2 {
+    grid-area: text2;
+    padding: 5px;
+}
+
+div>img {
+    margin: auto auto;
+    justify-self: center;
+    align-self: center;
+    width: 90%;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* -----------------
+Display for mobile
+-------------------- */
+
+@media screen and (max-width: 480px) {
+    .grid-container {
+        border: #0B132B dashed 2px;
+        border-radius: 20px;
+    }
+
+    /* Make the images grow and shrink the same */
+    .img1,
+    .img2 {
+        flex: 1 1 150px;
+    }
+
+    article {
+        margin: 2px;
+        padding: 2px;
+    }
+
+    article h2,
+    article p,
+    article li {
+        font-size: 0.8em;
+    }
+}
+
+/* -----------------
+Display for tablet
+-------------------- */
+
+@media screen and (min-width: 481px) {
+    .grid-container {
+        border: #0B132B dashed 3px;
+        border-radius: 25px;
+    }
+
+    .img1,
+    .img2 {
+        flex: 1 1 250px;
+    }
+
+    article {
+        margin: 5px;
+        padding: 5px;
+    }
+
+    article h2,
+    article p,
+    article li {
+        font-size: 0.9em;
+    }
+}
+
+/* -----------------
+Display for desktop
+-------------------- */
+
+@media screen and (min-width: 769px) {
+    .grid-container {
+        border-width: 4px;
+        padding: 20px;
+    }
+
+    .img1,
+    .img2 {
+        flex: 1 1 325px;
+    }
+
+    article h2,
+    article p,
+    article li {
+        font-size: 1.5em;
+    }
+}

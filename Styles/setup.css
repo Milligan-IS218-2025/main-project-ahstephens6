@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+/* CSS for setup.html */
+
+/* Give the today element a yellow background */
+.today {
+    background-color: rgba(242, 242, 117, 0.957);
+}
+
+img {
+    max-width: 100%;
+    margin: auto;
+}
+
+#live-bacteria {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    display: block;
+}
+
+header {
+    text-align: center;
+}
+
+tbody tr td {
+    padding-left: 3px;
+}
+
+/* -----------------
+Display for mobile
+-------------------- */
+@media screen and (max-width: 480px) {
+
+    /* Display the table in a vertical singular column */
+    #days-of-week,
+    #none {
+        display: none;
+    }
+
+    #weekly-maintenance {
+        width: 80%;
+        margin: auto auto;
+    }
+
+    #weekly-maintenance tbody {
+        td {
+            border: 1px dashed black;
+        }
+    }
+
+    h3 {
+        width: 100%;
+        margin: auto auto;
+    }
+
+    tr {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    td {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    td p {
+        margin: 2px 10px;
+        padding: 2px 10px;
+    }
+}
+
+/* -----------------
+Display for tablet
+-------------------- */
+@media screen and (min-width: 481px) {
+    #weekly-maintenance {
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin: auto auto;
+        width: 80%;
+    }
+
+    #weekly-maintenance tbody {
+
+        tr,
+        td {
+            border: 1px dashed black;
+        }
+    }
+
+    thead #days-of-week th {
+        width: 14.285%;
+    }
+
+    tbody tr td {
+        vertical-align: top;
+    }
+}
+
+/* No extra styles for the desktop */

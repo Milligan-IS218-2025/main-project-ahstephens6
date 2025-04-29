@@ -1,0 +1,217 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Doto:wght@100..900&family=Meow+Script&family=Righteous&display=swap);
+
+/* Page for styling navigation list and setting font-families */
+
+body {
+    background-color: #E6E8E6;
+    margin: 0px 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Bona Nova SC";
+}
+
+nav {
+    font-family: "Righteous";
+    /* position: fixed;
+    z-index: 1; */
+}
+
+div img {
+    width: 100%;
+    height: auto;
+}
+
+img {
+    border-radius: 10px;
+    filter: drop-shadow(3px 1px 2px black);
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #1C2541;
+}
+
+nav li,
+nav div {
+    flex-flow: row nowrap;
+}
+
+nav li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #0B132B;
+    color: white;
+}
+
+div img,
+aside img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    margin-top: 3px;
+    padding-top: 3px;
+    filter: drop-shadow(3px 3px 5px);
+    text-align: center;
+    vertical-align: bottom;
+}
+
+/* -----------------
+Display for mobile
+-------------------- */
+
+@media screen and (max-width: 480px) {
+    /* Create the navigation list dropdown button */
+
+    div#tablet-nav {
+        display: none;
+    }
+
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+
+    .dropdown .dropbtn {
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }
+
+    .dropdown:hover .dropbtn {
+        background-color: black;
+    }
+
+    .drop-content {
+        display: none;
+        position: absolute;
+        background-color: #1C2541;
+        min-width: 160px;
+        z-index: 1;
+    }
+
+    .drop-content a {
+        float: none;
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: flex;
+        text-align: left;
+        flex-flow: column nowrap;
+    }
+
+    .dropdown:hover .drop-content {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    .active {
+        background-color: #F9F9F9;
+        color: black;
+    }
+
+    p {
+        size: 1em;
+    }
+}
+
+/* -----------------
+Display for tablet
+-------------------- */
+
+@media screen and (min-width: 481px) {
+
+    div#tablet-nav {
+        display: none;
+    }
+
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+
+    .dropdown .dropbtn {
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }
+
+    .dropdown:hover .dropbtn {
+        background-color: black;
+    }
+
+    .drop-content {
+        display: none;
+        position: absolute;
+        background-color: #1C2541;
+        min-width: 160px;
+        z-index: 1;
+    }
+
+    .drop-content a {
+        float: none;
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: flex;
+        text-align: left;
+        flex-flow: column nowrap;
+    }
+
+    .dropdown:hover .drop-content {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    .active {
+        background-color: #F9F9F9;
+        color: black;
+    }
+}
+
+/* -----------------
+Display for desktop
+-------------------- */
+
+@media screen and (min-width: 769px) {
+    p {
+        size: 1.5em;
+    }
+
+    div.dropdown {
+        display: none;
+    }
+
+    div#tablet-nav {
+        display: flex;
+        flex-flow: row nowrap;
+        float: left;
+    }
+
+    p {
+        size: 1.2em;
+    }
+
+    .active {
+        background-color: #F9F9F9;
+        color: black;
+    }
+}
