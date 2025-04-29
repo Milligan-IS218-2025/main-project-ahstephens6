@@ -1,6 +1,8 @@
 @charset "utf-8";
 
+/* CSS for setup.html */
 
+/* Give the today element a yellow background */
 .today {
     background-color: rgba(242, 242, 117, 0.957);
 }
@@ -30,6 +32,7 @@ Display for mobile
 -------------------- */
 @media screen and (max-width: 480px) {
 
+    /* Display the table in a vertical singular column */
     #days-of-week,
     #none {
         display: none;
@@ -95,9 +98,4 @@ Display for tablet
     }
 }
 
-/* -----------------
-Display for desktop
--------------------- */
-@media screen and (min-width: 769px) {
-
-}
+/* No extra styles for the desktop */

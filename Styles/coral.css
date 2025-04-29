@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+/* CSS for coral.html */
+
 header,
 h2,
 h4 {
@@ -16,6 +18,7 @@ Display for mobile
 -------------------- */
 @media screen and (max-width: 480px) {
 
+    /* Update the semantic margin and padding */
     header,
     section,
     article,
@@ -39,6 +42,7 @@ Display for tablet
 -------------------- */
 @media screen and (min-width: 481px) {
 
+    /* Update semantic margin and padding */
     header,
     section,
     article,
@@ -51,11 +55,13 @@ Display for tablet
         margin: 10px 60px;
     }
 
+    /* Begin to display the main section as a 2 column grid */
     .grid {
         display: grid;
         grid-template-columns: auto auto;
     }
 
+    /* Make a break between each section with its header */
     header {
         grid-column: 1 / span 2;
     }
@@ -82,6 +88,7 @@ Display for desktop
 -------------------- */
 @media screen and (min-width: 769px) {
 
+    /* Update semantic margin and padding */
     header,
     section,
     article,

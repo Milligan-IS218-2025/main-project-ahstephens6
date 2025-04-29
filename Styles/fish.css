@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+/* CSS for fish.html */
+
 main {
     text-align: center;
 }
@@ -7,6 +9,8 @@ main {
 section ul {
     text-align: left;
 }
+
+/* No need for a mobile layout */
 
 /* -----------------
 Display for tablet

@@ -1,4 +1,4 @@
-
+// Defining global variables for the fish_info.js file
 let reefSafe = ["Clownfish", "Gobies", "Blennys", "Cardinals", "Royal Gramma", "Bristle-tooth Tang"]
 let safeImg = [
     "https://upload.wikimedia.org/wikipedia/commons/a/ad/Amphiprion_ocellaris_%28Clown_anemonefish%29_by_Nick_Hobgood.jpg",
@@ -33,6 +33,7 @@ let notImgAlt = [
     "Queen Angelfish"
 ]
 
+// Function for making the reef safe button display html
 function makeReefSafe() {
     let html = "<h3>Reef Safe Fish</h3><ul>";
     for (let i = 0; i < reefSafe.length; i++) {
@@ -49,6 +50,7 @@ function makeReefSafe() {
     document.getElementById("images").innerHTML = html
 }
 
+// Function for making the reef caution button display html
 function makeReefCaution() {
     let html = "<h3>Reef Caution Fish</h3><ul>";
     for (let i = 0; i < reefCaution.length; i++) {
@@ -56,7 +58,7 @@ function makeReefCaution() {
     }
     html += "</ul>";
     document.getElementById("content").innerHTML = html;
-    
+
     // Add images of fish
     html = ""
     for (let i = 0; i < cautionImg.length; i++) {
@@ -65,13 +67,14 @@ function makeReefCaution() {
     document.getElementById("images").innerHTML = html
 }
 
+// Function for making the not reef safe button display html
 function makeNotReefSafe() {
     let html = "<h3>Not Reef Safe Fish</h3><ul>";
     for (let i = 0; i < notReefSafe.length; i++) {
         html += "<li>" + notReefSafe[i] + "</li>";
     }
     document.getElementById("content").innerHTML = html;
-    
+
     // Add images of fish
     html = ""
     for (let i = 0; i < notImg.length; i++) {

@@ -1,6 +1,8 @@
 @charset "utf-8";
 @import url(https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Doto:wght@100..900&family=Meow+Script&family=Righteous&display=swap);
 
+/* Page for styling navigation list and setting font-families */
+
 body {
     background-color: #E6E8E6;
     margin: 0px 0px;
@@ -77,9 +79,7 @@ Display for mobile
 -------------------- */
 
 @media screen and (max-width: 480px) {
-    /* body {
-        margin: 5px 25px;
-    } */
+    /* Create the navigation list dropdown button */
 
     div#tablet-nav {
         display: none;
@@ -138,9 +138,6 @@ Display for tablet
 -------------------- */
 
 @media screen and (min-width: 481px) {
-    /* body {
-        margin: 7px 30px;
-    } */
 
     div#tablet-nav {
         display: none;

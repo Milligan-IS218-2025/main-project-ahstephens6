@@ -1,9 +1,12 @@
 @charset "utf-8";
 
+/* CSS for about.html */
+
 header {
     text-align: center;
 }
 
+/* Create the x-pattern for display */
 .grid-container {
     display: grid;
     grid-template-areas:
@@ -57,6 +60,7 @@ Display for mobile
         border-radius: 20px;
     }
 
+    /* Make the images grow and shrink the same */
     .img1,
     .img2 {
         flex: 1 1 150px;

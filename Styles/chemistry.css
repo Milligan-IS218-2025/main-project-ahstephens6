@@ -1,8 +1,12 @@
 @charset "utf-8";
 
+/* CSS for chemistry.html */
+
 header {
     text-align: center;
 }
+
+/* The table does not change based on screen size. */
 
 table {
     justify-self: center;

@@ -1,4 +1,4 @@
-// Parallel arrays for sand type
+// Parallel arrays for sand type and their volume per pound
 let sand = [
     "fiji-pink",
     "special-grade",
@@ -34,12 +34,14 @@ function calcVolume() {
     // Get the volume of the entered values
     let volume = width * length * depth;
 
+    // volume needed to fill / volume per pound yields number of pounds
     let totalPounds = volume / sandVolume;
-    totalPounds = totalPounds.toFixed(2);
+    totalPounds = totalPounds.toFixed(2); // Round to 2 decimal places
     document.getElementById("result").innerHTML = "Estimated sand bed: <strong>" + totalPounds + "lbs<strong> of sand.";
 }
 
 function getIndex(type) {
+    // Find the sand type that was selected and return its index
     for (let i = 0; i < sand.length; i++) {
         if (sand[i] === type) {
             return i;

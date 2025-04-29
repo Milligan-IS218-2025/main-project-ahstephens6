@@ -1,10 +1,9 @@
-
 // Create variables and constants for generating calendar
 let tableHTML = "";
 let date = new Date();
 const months = [
     "January", "February", "March", "April", "May",
-    "June", "July", "August", "September", "October", 
+    "June", "July", "August", "September", "October",
     "November", "December"
 ];
 const days = [
@@ -34,7 +33,7 @@ function checkLeapYear(curDate) {
     // Only do anything if it is February
     if (curDate.getMonth() === 1) {
         let year = curDate.getYear();
-        if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)){
+        if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
             days[1] = 29;
         }
     }
@@ -59,10 +58,10 @@ function addNumbers(curDate) {
         } else {
             tableHTML += "<td><h3>" + i + "</h3>";
         }
-        
+
         // Get the current weekday
         let weekDay = new Date(curDate.getFullYear(), curDate.getMonth(), i).getDay();
-        
+
         switch (weekDay) {
             // Water change on Sunday
             case 0: tableHTML += "<p>Water Change</p>"; break;
@@ -73,7 +72,7 @@ function addNumbers(curDate) {
             case 6: tableHTML += "<p>Water Test</p>"; break;
         }
         tableHTML += "<p>Feed Fish</p></td>";
-        
+
         // End of the week, create new row
         if (weekDay === 6) {
             tableHTML += "</tr><tr>";
@@ -93,6 +92,5 @@ function makeCalendar(curDate) {
     addNumbers(curDate);
     tableHTML += "</tbody>";
     document.getElementById("weekly-maintenance").innerHTML = tableHTML;
-    
 }
 
